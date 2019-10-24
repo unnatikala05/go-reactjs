@@ -16,6 +16,7 @@ func main() {
 			React.renderToString(component);
 		`)
 	fmt.Printf("\n%v\n", v)
+	fmt.Println("I am in the main function")
 
 	v = newRenderer([]string{"assets/demo3.js"}).
 		runCmd(`
